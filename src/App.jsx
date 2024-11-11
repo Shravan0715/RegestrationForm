@@ -92,9 +92,9 @@ const App = () => {
         <label htmlFor="course">Course:</label>
         <select name="course" value={course} onChange={handleChange}>
           <option value="">Select a Course</option>
-          <option value="math">Math</option>
-          <option value="science">Science</option>
-          <option value="history">History</option>
+          <option value="math">Java</option>
+          <option value="science">Python</option>
+          <option value="history">MERN</option>
         </select>
 
         <label>Subjects:</label>
